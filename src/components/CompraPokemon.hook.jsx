@@ -9,7 +9,7 @@ const CompraPokemonHook =()=> {
     return(
         <div>
                <button className="btn btn-dark btn-sm mb-2" onClick={()=>
-                {dispatch(buy_pokemon_action(1))}}>Comprar pokemon</button>
+                {dispatch(buy_pokemon_action(1))}}>Mandar a moravia</button>
                <button className="btn btn-dark btn-sm " onClick={()=> 
                 {dispatch(return_pokemon_action(1))}} >Regresar pokemon</button>
             </div>
